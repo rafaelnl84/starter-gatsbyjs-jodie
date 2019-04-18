@@ -255,8 +255,13 @@ const Layout = ({ children, color }: LayoutProps) => {
           <Main>{children}</Main>
           <Footer color={color}>
             <Box p={[6, 6, 8]} fontSize={0}>
-              Starter by <a href="https://www.lekoarts.de/en">LekoArts</a>.<br />
-              <a href="https://github.com/LekoArts/gatsby-starter-portfolio-jodie">Source</a>.
+              Design by <a href="https://www.lekoarts.de/en">LekoArts</a>.{' '}
+              <a href="https://github.com/rosoftdeveloper/starter-gatsbyjs-jodie">Sources</a>. 
+              <br /><br />More starters?
+              <br /><a href="https://starter-gatsbyjs-dimension.appseed.us/">Dimension</a>,{' By HTML5 Up '}
+              <br /><a href="https://starter-gatsbyjs-emma.appseed.us/">Emma</a>,{' By LekoArts '}
+              <br /><a href="https://starter-gatsbyjs-material-kit.appseed.us/">Material-Kit</a>,{' By Creative-Tim '}
+              <br /><a href="https://starter-gatsbyjs-strata.appseed.us/">Strata</a>{' By LekoArts '}
             </Box>
           </Footer>
         </Wrapper>

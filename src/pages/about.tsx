@@ -15,10 +15,13 @@ const About = () => {
     <Layout>
       <SEO title="About | Jodie" desc="Hi. I'm LekoArts! You can visit my website or my other Gatsby projects." />
       <AnimatedBox style={pageAnimation} py={[6, 6, 6, 8]} px={[6, 6, 8, 6, 8, 13]}>
-        <h1>Hi. I'm LekoArts!</h1>
+        <h1>Designed by LekoArts</h1>
+        <h2>Enhanced by AppSeed.us</h2>
         <p>
-          You can visit my <a href="https://www.lekoarts.de/en">website</a> or my other{' '}
-          <a href="https://gatsby-starter-portfolio.netlify.com">Gatsby projects</a>.
+          <a target="_blank" href="https://github.com/rosoftdeveloper/starter-gatsbyjs-jodie">Sources</a>,{' '}
+          <a target="_blank" href="https://github.com/rosoftdeveloper/starter-gatsbyjs-jodie/blob/master/deploy.js">FTP Deploy Script</a>,{' '} 
+          <a target="_blank" href="https://developers.google.com/speed/pagespeed/insights/?url=https://starter-gatsbyjs-jodie.appseed.us&tab=mobile">Fast as hell</a>.{' '}
+          Yours free!
         </p>
       </AnimatedBox>
     </Layout>
